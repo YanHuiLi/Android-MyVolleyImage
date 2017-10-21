@@ -56,7 +56,6 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void putBitmap(String key, Bitmap value) {
-
                 lruCache.put(key,value);
             }
         };
